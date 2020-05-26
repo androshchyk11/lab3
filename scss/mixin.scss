@@ -1,0 +1,7 @@
+@mixin color {
+    color: $variable2
+}
+
+@mixin font_size {
+    font-size: $variable1;
+}

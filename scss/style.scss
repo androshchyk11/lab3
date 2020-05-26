@@ -1,0 +1,20 @@
+@import "varibles";
+@import "mixin";
+body {
+    background-color: teal;
+}
+
+.new_smth {
+    @include color
+}
+
+.first {
+    .another_color {
+        @include font-size;
+        color: #000000;
+    }
+}
+
+.first_words {
+    color: wheat
+}
